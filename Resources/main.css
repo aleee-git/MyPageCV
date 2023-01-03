@@ -1,0 +1,18 @@
+/* Declaracion de variables */
+:root {
+    --theme-color: #fff;
+    --text-color-inverse: rgb(229, 184, 184);
+    --text-color: #000;
+    --navbar-shallow-color :#999;
+    --menu-mobile-bg-color: rgb(134, 70, 70);
+}
+
+body {
+    background-color: var(--theme-color);
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
