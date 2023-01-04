@@ -1,0 +1,57 @@
+.experience-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5px !important;
+    margin-top: 5px !important;
+}
+
+.experience-company {
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.experience-position {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.experience-description {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.experiences {
+    padding: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.experiences-grid {
+    display: grid;
+    grid-template-columns: auto 2px auto;
+    gap: 20px;
+    padding: 70PX;
+    justify-content: center;
+}
+
+.line {
+    background-color: #CE7777;
+    position: relative;
+}
+
+/* Circulo */
+.line::after, .line::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #E8C4C4;
+    border-radius: 50px;
+    position: absolute;
+    top: -20px;
+    left: -15px;
+}
+
+.line::after {
+    top: 100%;
+}
