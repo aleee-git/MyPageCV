@@ -10,6 +10,7 @@
 body {
     background-color: var(--theme-color);
     color: var(--text-color);
+    padding-top: 50px;
 }
 
 a {

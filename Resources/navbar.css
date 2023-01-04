@@ -5,23 +5,15 @@
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 .navbar  {
     display: flex;
-    justify-content: space-between;
     padding: 10px;
     max-width: 980px;
     margin: 0 auto;
-}
-
-.logo {
-    display: flex;
-    align-items:center;
-}
-
-.logo img {
-    border-radius: 50%;
+    text-align: center;
 }
 
 .menu {
@@ -60,7 +52,8 @@
 }
 
 .menu a:hover {
-    color: aqua;
+    color: #a4ec77;
+    text-decoration: none;
 }
 
 #open, #close {

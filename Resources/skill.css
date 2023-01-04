@@ -1,0 +1,20 @@
+.skills {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.skill-skill {
+    border-radius: 42px;
+    font-size: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgb(215, 209, 209);
+    padding: 0.5em 0.7em;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
