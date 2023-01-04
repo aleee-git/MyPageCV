@@ -7,6 +7,16 @@
     --menu-mobile-bg-color: rgb(134, 70, 70);
 }
 
+/* Seccion de navegacion navbar */
+section [id] {
+    scroll-margin-top: 70px;
+}
+
+/* Hace lenta la transicion */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--theme-color);
     color: var(--text-color);

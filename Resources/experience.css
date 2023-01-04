@@ -52,3 +52,11 @@
 .line::after {
     top: 100%;
 }
+
+.division-line {
+    /*Option 2 
+    border: 1px dashed grey; height: 0; width: 60%;
+    */
+    border: 3px solid #E8C4C4; border-radius: 300px/10px; height: 0px; text-align: center;
+
+}

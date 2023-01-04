@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="Resources/profile.css">
     <link rel="stylesheet" href="Resources/skill.css">
     <link rel="stylesheet" href="Resources/experience.css">
-
+    <link rel="stylesheet" href="Resources/contact.css">
     
     <!--Normalize libreria que permite mantener el diseño en los navegadores-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
@@ -27,7 +27,7 @@
             <i class="fa fa-times" id="close" aria-hidden="true"></i>
             <ul class="menu">
                 <li><a href="#profile" class="selected">Profile</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#experiences">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -35,7 +35,8 @@
     </header>
     <br>
 
-    <section class="profile">
+
+    <section class="profile" id="profile">
         <div class="profile-info">
             <h1>Hi <br> I'm Cat</h1>
             <span class="profile-img-section">
@@ -58,11 +59,9 @@
 
     </section>
 
-    <br>
+    <hr class="division-line"> 
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f2e5e5" fill-opacity="1" d="M0,160L34.3,181.3C68.6,203,137,245,206,234.7C274.3,224,343,160,411,138.7C480,117,549,139,617,138.7C685.7,139,754,117,823,138.7C891.4,160,960,224,1029,218.7C1097.1,213,1166,139,1234,128C1302.9,117,1371,171,1406,197.3L1440,224L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
-
-    <section class="experiences">
+    <section class="experiences" id="experiences">
     <div class="experiences-body">
         <h2 class="experience-title">Experience</h2>
         <div class="experiences-grid">
@@ -100,10 +99,10 @@
         </div>
     </div>
     </section>
-    
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f2e5e5" fill-opacity="1" d="M0,160L34.3,181.3C68.6,203,137,245,206,234.7C274.3,224,343,160,411,138.7C480,117,549,139,617,138.7C685.7,139,754,117,823,138.7C891.4,160,960,224,1029,218.7C1097.1,213,1166,139,1234,128C1302.9,117,1371,171,1406,197.3L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>    
-
-    <section class="skills">
+    
+    
+    <section class="skills" id="skills">
         <h2>HABILIDADES</h2>
         <ul class="skill-list">
             <li class="skill-skill">CSS</li>
@@ -125,6 +124,59 @@
             <li class="skill-skill">JAVA</li>
             <li class="skill-skill">REACT</li>
         </ul>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2>CONTACTO</h2>
+        <div class="row">
+            <div class="col-6">
+                <div class="contact-details">
+                    <div class="contact-group">
+                        <p class="contact-label">Direccion</p>
+                        <p class="contact-text">Soya, Sivar</p>
+                    </div>
+        
+                    <div class="contact-group">
+                        <p class="contact-label">Email</p>
+                        <p class="contact-text">Yanoquierotrabajar@gmail.com</p>
+                    </div>
+        
+                    <div class="contact-group">
+                        <p class="contact-text">Deja SMS, yo te contesto 😘</p>
+                    </div>
+                </div>
+                <br> <br>
+                <nav class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+                    <a href="https://github.com/" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                </nav>
+            </div>
+    
+            <div class="col-6">
+                <form class="contact-form">
+                    <div class="contact-form-group">
+                        <label for="nombre">Nombre</label>
+                        <input required type="text" name="name" id="nombre">
+                    </div>
+        
+                    <div class="contact-form-group">
+                        <label for="email">Email</label>
+                        <input required type="email" name="email" id="email">
+                    </div>
+        
+                    <div class="contact-form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea required name="mensaje" id="mensaje" rows="6"></textarea>
+                    </div>
+        
+                    <button class="contact-form-submit" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <p>Copyright © 2022 - All rights reserved || Designed By: Ale</p>
     </section>
 
 </body>

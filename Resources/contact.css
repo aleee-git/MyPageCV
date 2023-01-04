@@ -1,0 +1,47 @@
+.contact {
+    text-align: center;
+    background-color: #2B3A55;
+    color: #fff;
+    border-radius: 14px;
+    padding: 70px;
+    display: grid;
+    gap: 25px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.contact-details, .contact-form {
+    display: grid;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact-group, .contact-form-group {
+    display: grid;
+    gap: 3px;
+}
+
+.contact-label {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.contact-form-submit {
+    cursor: pointer;
+    width: 100px;
+    border-radius: 40px;
+    background-color: #F2E5E5;
+    border: none;
+}
+
+.social a {
+    text-decoration:none;
+    color: #CE7777;
+    transition:0.5s;
+    margin: 25px;
+}
+
+.social a:hover {
+    color:#F2E5E5;
+}
+  
