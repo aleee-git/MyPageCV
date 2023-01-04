@@ -1,8 +1,6 @@
 .experience-title {
     text-align: center;
     text-transform: uppercase;
-    padding-top: 5px !important;
-    margin-top: 5px !important;
 }
 
 .experience-company {
@@ -21,14 +19,13 @@
 }
 
 .experiences {
-    padding: 25px;
-    margin: 0 auto;
+    padding: 10px;
     text-align: center;
 }
 
 .experiences-grid {
     display: grid;
-    grid-template-columns: auto 2px auto;
+    grid-template-columns: auto 5px auto;
     gap: 20px;
     padding: 70PX;
     justify-content: center;
@@ -49,7 +46,7 @@
     border-radius: 50px;
     position: absolute;
     top: -20px;
-    left: -15px;
+    left: -13px;
 }
 
 .line::after {

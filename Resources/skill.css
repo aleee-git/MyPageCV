@@ -7,8 +7,12 @@
     border-radius: 42px;
     font-size: 20px;
     margin: 20px;
-    box-shadow: 0 4px 10px rgb(215, 209, 209);
+    /* Sombra imagen
+    box-shadow: 0 4px 10px rgb(249, 199, 118);
+    */
     padding: 0.5em 0.7em;
+    background-color: #2B3A55;
+    color: aliceblue;
 }
 
 .skill-list {

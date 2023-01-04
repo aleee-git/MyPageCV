@@ -37,7 +37,7 @@
 
 .menu a::after {
     content: "";
-    background-color: #888;
+    background-color: #CE7777;
     position: absolute;
     left: 0;
     top: 100%;
@@ -52,7 +52,7 @@
 }
 
 .menu a:hover {
-    color: #a4ec77;
+    color: #CE7777;
     text-decoration: none;
 }
 
